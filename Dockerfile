@@ -12,4 +12,6 @@ USER 1001
 
 #RUN mv jx /usr/bin/jx
 
+EXPOSE 8080
+
 ENTRYPOINT ["/usr/local/bin/jx", "install", "--provider=openshift"]

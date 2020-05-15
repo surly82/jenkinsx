@@ -12,4 +12,4 @@ USER 1001
 
 #RUN mv jx /usr/bin/jx
 
-ENTRYPOINT ["/usr/local/bin/jx", "init"]
+ENTRYPOINT ["/usr/local/bin/jx", "install", "--provider=openshift"]

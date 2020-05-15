@@ -5,6 +5,6 @@ RUN JX_VERSION=$(curl --silent "https://github.com/jenkins-x/jx/releases/latest"
     tar xzv "jx"
 USER root
 
-RUN sudo mv jx /usr/local/bin
+RUN mv jx /usr/local/bin
 
 USER 1001
